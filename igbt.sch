@@ -852,4 +852,54 @@ Wire Wire Line
 Connection ~ 8650 4200
 Wire Wire Line
 	8650 4200 9050 4200
+$Comp
+L Connector:Screw_Terminal_01x03 J10
+U 1 1 5F0A514F
+P 3250 2500
+F 0 "J10" H 3330 2542 50  0000 L CNN
+F 1 "Motor" H 3330 2451 50  0000 L CNN
+F 2 "" H 3250 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5F0A5375
+P 2750 2600
+F 0 "TP14" H 2692 2627 50  0000 R CNN
+F 1 "MC" H 2692 2718 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 2950 2600 50  0001 C CNN
+F 3 "~" H 2950 2600 50  0001 C CNN
+	1    2750 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5F0A542B
+P 2500 2500
+F 0 "TP13" H 2442 2527 50  0000 R CNN
+F 1 "MB" H 2442 2618 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 2700 2500 50  0001 C CNN
+F 3 "~" H 2700 2500 50  0001 C CNN
+	1    2500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5F0A54AD
+P 2350 2400
+F 0 "TP12" H 2292 2427 50  0000 R CNN
+F 1 "MA" H 2300 2500 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 2550 2400 50  0001 C CNN
+F 3 "~" H 2550 2400 50  0001 C CNN
+	1    2350 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 2400 3050 2400
+Wire Wire Line
+	3050 2500 2500 2500
+Wire Wire Line
+	3050 2600 2750 2600
 $EndSCHEMATC
