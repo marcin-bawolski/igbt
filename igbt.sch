@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:igbt-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -261,160 +262,9 @@ Wire Wire Line
 Connection ~ 2550 3100
 Wire Wire Line
 	2550 3100 2550 3150
-$Comp
-L Device:R R2
-U 1 1 5EE2B024
-P 3250 3700
-F 0 "R2" V 3043 3700 50  0000 C CNN
-F 1 "1k" V 3134 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 3700 50  0001 C CNN
-F 3 "~" H 3250 3700 50  0001 C CNN
-	1    3250 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5EE2B1D9
-P 3500 3900
-F 0 "C1" H 3615 3946 50  0000 L CNN
-F 1 "1n" H 3615 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 3750 50  0001 C CNN
-F 3 "~" H 3500 3900 50  0001 C CNN
-	1    3500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5EE2B271
-P 5800 3900
-F 0 "C2" H 5915 3946 50  0000 L CNN
-F 1 "1n" H 5915 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5838 3750 50  0001 C CNN
-F 3 "~" H 5800 3900 50  0001 C CNN
-	1    5800 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5EE2B2DF
-P 8100 3950
-F 0 "C3" H 8215 3996 50  0000 L CNN
-F 1 "1n" H 8215 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 3800 50  0001 C CNN
-F 3 "~" H 8100 3950 50  0001 C CNN
-	1    8100 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 4150 8100 4100
-Wire Wire Line
-	8000 3750 8100 3750
-Wire Wire Line
-	8100 3750 8100 3800
-Wire Wire Line
-	5750 3700 5800 3700
-Wire Wire Line
-	5800 3700 5800 3750
-Wire Wire Line
-	3400 3700 3500 3700
-Wire Wire Line
-	3500 3700 3500 3750
-Wire Wire Line
-	3500 4050 3500 4100
-$Comp
-L Device:R R4
-U 1 1 5EE34C22
-P 5600 3700
-F 0 "R4" V 5700 3650 50  0000 C CNN
-F 1 "1k" V 5500 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5530 3700 50  0001 C CNN
-F 3 "~" H 5600 3700 50  0001 C CNN
-	1    5600 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5EE34C90
-P 7850 3750
-F 0 "R6" V 7950 3750 50  0000 C CNN
-F 1 "1k" V 7734 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 3750 50  0001 C CNN
-F 3 "~" H 7850 3750 50  0001 C CNN
-	1    7850 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Shunt R3
-U 1 1 5EE34EC6
-P 5300 3900
-F 0 "R3" H 5212 3946 50  0000 R CNN
-F 1 "R_Shunt" H 5212 3855 50  0000 R CNN
-F 2 "Resistor_SMD:R_Shunt_Vishay_WSKW0612" V 5230 3900 50  0001 C CNN
-F 3 "~" H 5300 3900 50  0001 C CNN
-	1    5300 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Shunt R1
-U 1 1 5EE350DD
-P 2850 3950
-F 0 "R1" H 2762 3996 50  0000 R CNN
-F 1 "R_Shunt" H 2762 3905 50  0000 R CNN
-F 2 "Resistor_SMD:R_Shunt_Vishay_WSKW0612" V 2780 3950 50  0001 C CNN
-F 3 "~" H 2850 3950 50  0001 C CNN
-	1    2850 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Shunt R5
-U 1 1 5EE35222
-P 7500 3850
-F 0 "R5" H 7412 3896 50  0000 R CNN
-F 1 "R_Shunt" H 7412 3805 50  0000 R CNN
-F 2 "Resistor_SMD:R_Shunt_Vishay_WSKW0612" V 7430 3850 50  0001 C CNN
-F 3 "~" H 7500 3850 50  0001 C CNN
-	1    7500 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 3600 2850 3750
-Wire Wire Line
-	3000 3850 3100 3850
-Wire Wire Line
-	3100 3850 3100 3700
-Wire Wire Line
-	3400 4050 3400 4100
-Wire Wire Line
-	3400 4100 3500 4100
-Wire Wire Line
-	3000 4050 3400 4050
-Wire Wire Line
-	5300 3700 5300 3650
 Connection ~ 5300 3650
 Wire Wire Line
-	5450 3800 5450 3700
-Wire Wire Line
-	5450 4000 5750 4000
-Wire Wire Line
-	5750 4000 5750 4050
-Wire Wire Line
-	5750 4050 5800 4050
-Connection ~ 5800 4050
-Wire Wire Line
-	7700 3750 7650 3750
-Wire Wire Line
-	7650 4150 8100 4150
-Wire Wire Line
-	7650 3950 7650 4150
-Connection ~ 3500 4100
-Wire Wire Line
-	5300 4500 5300 4100
-Wire Wire Line
-	7500 4050 7500 4500
-Wire Wire Line
 	5300 4500 5250 4500
-Wire Wire Line
-	2850 4500 2850 4150
 $Comp
 L Connector:Conn_01x08_Female J1
 U 1 1 5EE497F2
@@ -426,26 +276,6 @@ F 3 "~" H 1300 3100 50  0001 C CNN
 	1    1300 3100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 5EE498D0
-P 4350 5400
-F 0 "J2" H 4244 4975 50  0000 C CNN
-F 1 "Sense_DC" H 4200 5600 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 4350 5400 50  0001 C CNN
-F 3 "~" H 4350 5400 50  0001 C CNN
-	1    4350 5400
-	-1   0    0    1   
-$EndComp
-Connection ~ 3500 3700
-Wire Wire Line
-	6050 5300 6050 3700
-Wire Wire Line
-	6050 3700 5800 3700
-Connection ~ 5800 3700
-Wire Wire Line
-	8350 3750 8100 3750
-Connection ~ 8100 3750
 Wire Wire Line
 	2250 2800 1500 2800
 Wire Wire Line
@@ -549,7 +379,7 @@ $Comp
 L Sensor_Current:ACS758xCB-050B-PFF U1
 U 1 1 5EE831BB
 P 3650 3000
-F 0 "U1" H 4091 3046 50  0000 L CNN
+F 0 "U1" H 3400 2700 50  0000 L CNN
 F 1 "ACS758xCB-050B-PFF" H 3350 3400 50  0000 L CNN
 F 2 "Sensor_Current:Allegro_CB_PFF" H 3650 3000 50  0001 C CNN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en" H 3650 3000 50  0001 C CNN
@@ -560,7 +390,7 @@ $Comp
 L Sensor_Current:ACS758xCB-050B-PFF U2
 U 1 1 5EE8328D
 P 6150 3050
-F 0 "U2" H 6591 3096 50  0000 L CNN
+F 0 "U2" H 5850 2800 50  0000 L CNN
 F 1 "ACS758xCB-050B-PFF" H 5700 3300 50  0000 L CNN
 F 2 "Sensor_Current:Allegro_CB_PFF" H 6150 3050 50  0001 C CNN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en" H 6150 3050 50  0001 C CNN
@@ -576,8 +406,6 @@ Wire Wire Line
 Connection ~ 5250 4500
 Wire Wire Line
 	5300 4500 7500 4500
-Wire Wire Line
-	3500 3700 4550 3700
 Wire Wire Line
 	3250 2900 3100 2900
 Wire Wire Line
@@ -614,20 +442,6 @@ Wire Wire Line
 	3650 2700 4200 2700
 Wire Wire Line
 	4200 2700 4200 3150
-Wire Wire Line
-	3500 4200 5800 4200
-Wire Wire Line
-	5800 4050 5800 4200
-Wire Wire Line
-	3500 4100 3500 4200
-Wire Wire Line
-	5800 4200 6300 4200
-Wire Wire Line
-	7650 4200 7650 4150
-Connection ~ 5800 4200
-Connection ~ 7650 4150
-Text Label 6300 4200 0    50   ~ 0
-SENSE_PW_GND
 $Comp
 L power:GND #PWR01
 U 1 1 5EF32339
@@ -704,8 +518,6 @@ Wire Wire Line
 	8000 3550 8000 3500
 Connection ~ 7500 3550
 Wire Wire Line
-	7500 3550 7500 3650
-Wire Wire Line
 	7500 3150 8000 3150
 Connection ~ 7500 3150
 $Comp
@@ -747,21 +559,6 @@ Wire Wire Line
 	3950 1700 3950 1900
 Wire Wire Line
 	3950 1900 3650 1900
-Wire Wire Line
-	6300 5500 6300 4200
-Connection ~ 6300 4200
-Wire Wire Line
-	6300 4200 7650 4200
-Wire Wire Line
-	4550 5500 6300 5500
-Wire Wire Line
-	4550 3700 4550 5200
-Wire Wire Line
-	4550 5300 6050 5300
-Wire Wire Line
-	4550 5400 8350 5400
-Wire Wire Line
-	8350 3750 8350 5400
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5EFF3DA2
@@ -791,4 +588,10 @@ Wire Wire Line
 	4950 2550 7500 2550
 Wire Wire Line
 	4950 2500 4950 2550
+Wire Wire Line
+	7500 3550 7500 4500
+Wire Wire Line
+	5300 3650 5300 4500
+Wire Wire Line
+	2850 3600 2850 4500
 $EndSCHEMATC
