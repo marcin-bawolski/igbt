@@ -20,7 +20,7 @@ U 1 1 5EE20001
 P 2450 2800
 F 0 "Q1" H 2250 2900 50  0000 L CNN
 F 1 "IRG4PF50W" V 2650 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 2650 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 2650 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 2450 2800 50  0001 L CNN
 	1    2450 2800
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5EE20092
 P 2450 3400
 F 0 "Q2" H 2300 3500 50  0000 L CNN
 F 1 "IRG4PF50W" V 2650 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 2650 3325 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 2650 3325 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 2450 3400 50  0001 L CNN
 	1    2450 3400
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5EE200C8
 P 4850 2800
 F 0 "Q3" H 4700 2850 50  0000 L CNN
 F 1 "IRG4PF50W" V 5100 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 5050 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 5050 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 4850 2800 50  0001 L CNN
 	1    4850 2800
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5EE2010A
 P 4850 3400
 F 0 "Q4" H 4650 3500 50  0000 L CNN
 F 1 "IRG4PF50W" V 5100 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 5050 3325 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 5050 3325 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 4850 3400 50  0001 L CNN
 	1    4850 3400
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5EE20146
 P 7400 3350
 F 0 "Q6" H 7250 3450 50  0000 L CNN
 F 1 "IRG4PF50W" V 7650 3150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 7600 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 7600 3275 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 7400 3350 50  0001 L CNN
 	1    7400 3350
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5EE2017C
 P 7400 2800
 F 0 "Q5" H 7250 2900 50  0000 L CNN
 F 1 "IRG4PF50W" V 7650 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 7600 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 7600 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 7400 2800 50  0001 L CNN
 	1    7400 2800
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5EE20343
 P 2850 2800
 F 0 "D1" V 2750 2700 50  0000 L CNN
 F 1 "BYV79-100" H 2650 2900 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 2850 2625 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 2850 2625 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 2850 2800 50  0001 C CNN
 	1    2850 2800
 	0    1    1    0   
@@ -97,7 +97,7 @@ U 1 1 5EE20433
 P 2850 3350
 F 0 "D2" V 2750 3250 50  0000 L CNN
 F 1 "BYV79-100" H 2650 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 2850 3175 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 2850 3175 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 2850 3350 50  0001 C CNN
 	1    2850 3350
 	0    1    1    0   
@@ -108,7 +108,7 @@ U 1 1 5EE20491
 P 5300 3400
 F 0 "D4" V 5200 3300 50  0000 L CNN
 F 1 "BYV79-100" H 5100 3500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 5300 3225 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 5300 3225 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 5300 3400 50  0001 C CNN
 	1    5300 3400
 	0    1    1    0   
@@ -119,7 +119,7 @@ U 1 1 5EE204E5
 P 5300 2750
 F 0 "D3" V 5200 2650 50  0000 L CNN
 F 1 "BYV79-100" H 5100 2850 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 5300 2575 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 5300 2575 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 5300 2750 50  0001 C CNN
 	1    5300 2750
 	0    1    1    0   
@@ -130,7 +130,7 @@ U 1 1 5EE20543
 P 8000 2850
 F 0 "D5" V 7900 2750 50  0000 L CNN
 F 1 "BYV79-100" H 7800 2950 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 8000 2675 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 8000 2675 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 8000 2850 50  0001 C CNN
 	1    8000 2850
 	0    1    1    0   
@@ -141,7 +141,7 @@ U 1 1 5EE2059B
 P 8000 3350
 F 0 "D6" V 7900 3250 50  0000 L CNN
 F 1 "BYV79-100" H 7800 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 8000 3175 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 8000 3175 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 8000 3350 50  0001 C CNN
 	1    8000 3350
 	0    1    1    0   
@@ -270,7 +270,7 @@ L Connector:Conn_01x08_Female J1
 U 1 1 5EE497F2
 P 1300 3100
 F 0 "J1" H 1194 3585 50  0000 C CNN
-F 1 "Conn_01x08_Female" H 1194 3494 50  0000 C CNN
+F 1 "PWM" H 1194 3494 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B08B-XH-A_1x08_P2.50mm_Vertical" H 1300 3100 50  0001 C CNN
 F 3 "~" H 1300 3100 50  0001 C CNN
 	1    1300 3100
@@ -521,12 +521,12 @@ Wire Wire Line
 	7500 3150 8000 3150
 Connection ~ 7500 3150
 $Comp
-L Connector:Conn_01x04_Female J3
+L Connector:Conn_01x03_Female J3
 U 1 1 5EFB8E57
 P 4150 1500
 F 0 "J3" V 4090 1648 50  0000 L CNN
 F 1 "Sense_AC" V 3999 1648 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-AM_1x04_P2.50mm_Vertical" H 4150 1500 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B03B-EH-A_1x03_P2.50mm_Vertical" H 4150 1500 50  0001 C CNN
 F 3 "~" H 4150 1500 50  0001 C CNN
 	1    4150 1500
 	0    1    -1   0   
@@ -534,12 +534,6 @@ $EndComp
 Wire Wire Line
 	3650 2700 3650 1900
 Connection ~ 3650 2700
-Wire Wire Line
-	4050 3000 4050 1700
-Wire Wire Line
-	4150 1700 4150 2200
-Wire Wire Line
-	4150 2200 6550 2200
 Wire Wire Line
 	6550 2200 6550 3050
 $Comp
@@ -555,10 +549,6 @@ F 3 "" H 4250 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 1700 4250 1750
-Wire Wire Line
-	3950 1700 3950 1900
-Wire Wire Line
-	3950 1900 3650 1900
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5EFF3DA2
@@ -571,10 +561,7 @@ F 3 "~" H 7700 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 1900 6150 1900
-Wire Wire Line
 	6150 1900 6150 2750
-Connection ~ 3950 1900
 Connection ~ 6150 2750
 Wire Wire Line
 	3150 3200 3150 3100
@@ -594,4 +581,44 @@ Wire Wire Line
 	5300 3650 5300 4500
 Wire Wire Line
 	2850 3600 2850 4500
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5EE61DC3
+P 6050 1500
+F 0 "J2" V 5990 1648 50  0000 L CNN
+F 1 "Sense_AC" V 5899 1648 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B03B-EH-A_1x03_P2.50mm_Vertical" H 6050 1500 50  0001 C CNN
+F 3 "~" H 6050 1500 50  0001 C CNN
+	1    6050 1500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3650 1900 5950 1900
+Wire Wire Line
+	4050 1700 3650 1700
+Wire Wire Line
+	3650 1700 3650 1900
+Connection ~ 3650 1900
+Wire Wire Line
+	4050 3000 4050 1800
+Wire Wire Line
+	4050 1800 4150 1800
+Wire Wire Line
+	4150 1800 4150 1700
+Wire Wire Line
+	5950 1700 5950 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5950 1900 6150 1900
+Wire Wire Line
+	6050 1700 6050 1800
+Wire Wire Line
+	6050 1800 6250 1800
+Wire Wire Line
+	6250 1800 6250 2200
+Wire Wire Line
+	6250 2200 6550 2200
+Wire Wire Line
+	6150 1900 6150 1700
+Connection ~ 6150 1900
 $EndSCHEMATC
