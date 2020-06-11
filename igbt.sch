@@ -20,7 +20,7 @@ U 1 1 5EE20001
 P 2450 2800
 F 0 "Q1" H 2250 2900 50  0000 L CNN
 F 1 "IRG4PF50W" V 2650 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 2650 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 2650 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 2450 2800 50  0001 L CNN
 	1    2450 2800
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5EE20092
 P 2450 3400
 F 0 "Q2" H 2300 3500 50  0000 L CNN
 F 1 "IRG4PF50W" V 2650 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 2650 3325 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 2650 3325 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 2450 3400 50  0001 L CNN
 	1    2450 3400
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5EE200C8
 P 4850 2800
 F 0 "Q3" H 4700 2850 50  0000 L CNN
 F 1 "IRG4PF50W" V 5100 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 5050 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 5050 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 4850 2800 50  0001 L CNN
 	1    4850 2800
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5EE2010A
 P 4850 3400
 F 0 "Q4" H 4650 3500 50  0000 L CNN
 F 1 "IRG4PF50W" V 5100 3200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 5050 3325 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 5050 3325 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 4850 3400 50  0001 L CNN
 	1    4850 3400
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5EE20146
 P 7400 3350
 F 0 "Q6" H 7250 3450 50  0000 L CNN
 F 1 "IRG4PF50W" V 7650 3150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 7600 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 7600 3275 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 7400 3350 50  0001 L CNN
 	1    7400 3350
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5EE2017C
 P 7400 2800
 F 0 "Q5" H 7250 2900 50  0000 L CNN
 F 1 "IRG4PF50W" V 7650 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 7600 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp" H 7600 2725 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 7400 2800 50  0001 L CNN
 	1    7400 2800
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5EE20343
 P 2850 2800
 F 0 "D1" V 2750 2700 50  0000 L CNN
 F 1 "BYV79-100" H 2650 2900 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 2850 2625 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 2850 2625 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 2850 2800 50  0001 C CNN
 	1    2850 2800
 	0    1    1    0   
@@ -97,7 +97,7 @@ U 1 1 5EE20433
 P 2850 3350
 F 0 "D2" V 2750 3250 50  0000 L CNN
 F 1 "BYV79-100" H 2650 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 2850 3175 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 2850 3175 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 2850 3350 50  0001 C CNN
 	1    2850 3350
 	0    1    1    0   
@@ -108,7 +108,7 @@ U 1 1 5EE20491
 P 5300 3400
 F 0 "D4" V 5200 3300 50  0000 L CNN
 F 1 "BYV79-100" H 5100 3500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 5300 3225 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 5300 3225 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 5300 3400 50  0001 C CNN
 	1    5300 3400
 	0    1    1    0   
@@ -119,7 +119,7 @@ U 1 1 5EE204E5
 P 5300 2750
 F 0 "D3" V 5200 2650 50  0000 L CNN
 F 1 "BYV79-100" H 5100 2850 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 5300 2575 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 5300 2575 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 5300 2750 50  0001 C CNN
 	1    5300 2750
 	0    1    1    0   
@@ -130,7 +130,7 @@ U 1 1 5EE20543
 P 8000 2850
 F 0 "D5" V 7900 2750 50  0000 L CNN
 F 1 "BYV79-100" H 7800 2950 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 8000 2675 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 8000 2675 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 8000 2850 50  0001 C CNN
 	1    8000 2850
 	0    1    1    0   
@@ -141,7 +141,7 @@ U 1 1 5EE2059B
 P 8000 3350
 F 0 "D6" V 7900 3250 50  0000 L CNN
 F 1 "BYV79-100" H 7800 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 8000 3175 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 8000 3175 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 8000 3350 50  0001 C CNN
 	1    8000 3350
 	0    1    1    0   
@@ -257,8 +257,6 @@ Wire Wire Line
 	2550 3150 2550 3200
 Wire Wire Line
 	2850 3150 2850 3200
-Wire Wire Line
-	3100 3100 2550 3100
 Connection ~ 2550 3100
 Wire Wire Line
 	2550 3100 2550 3150
@@ -266,10 +264,10 @@ Connection ~ 5300 3650
 Wire Wire Line
 	5300 4500 5250 4500
 $Comp
-L Connector:Conn_01x02_Female J1
+L Connector:Conn_01x02_Female J9
 U 1 1 5EE497F2
 P 1050 4500
-F 0 "J1" H 1000 4600 50  0000 C CNN
+F 0 "J9" H 1000 4600 50  0000 C CNN
 F 1 "DC_Sense" H 950 4300 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 4500 50  0001 C CNN
 F 3 "~" H 1050 4500 50  0001 C CNN
@@ -359,10 +357,6 @@ Wire Wire Line
 Connection ~ 5250 4500
 Wire Wire Line
 	5300 4500 5950 4500
-Wire Wire Line
-	3250 2900 3100 2900
-Wire Wire Line
-	3100 2900 3100 3100
 Connection ~ 5300 4500
 Connection ~ 2850 2550
 $Comp
@@ -393,17 +387,6 @@ Wire Wire Line
 	3650 2700 4100 2700
 Wire Wire Line
 	4250 2700 4250 3150
-$Comp
-L power:GND #PWR01
-U 1 1 5EF32339
-P 3650 3450
-F 0 "#PWR01" H 3650 3200 50  0001 C CNN
-F 1 "GND" H 3655 3277 50  0000 C CNN
-F 2 "" H 3650 3450 50  0001 C CNN
-F 3 "" H 3650 3450 50  0001 C CNN
-	1    3650 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 3000 4950 3150
 Wire Wire Line
@@ -426,17 +409,6 @@ Wire Wire Line
 	6150 2750 6600 2750
 Wire Wire Line
 	6750 3350 6750 3200
-$Comp
-L power:GND #PWR03
-U 1 1 5EF7AD17
-P 6150 3350
-F 0 "#PWR03" H 6150 3100 50  0001 C CNN
-F 1 "GND" H 6155 3177 50  0000 C CNN
-F 2 "" H 6150 3350 50  0001 C CNN
-F 3 "" H 6150 3350 50  0001 C CNN
-	1    6150 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 3150 8000 3200
 Wire Wire Line
@@ -448,10 +420,10 @@ Wire Wire Line
 	7500 3150 8000 3150
 Connection ~ 7500 3150
 $Comp
-L Connector:Conn_01x03_Female J3
+L Connector:Conn_01x03_Female J7
 U 1 1 5EFB8E57
 P 6200 3800
-F 0 "J3" H 6250 3700 50  0000 L CNN
+F 0 "J7" H 6250 3700 50  0000 L CNN
 F 1 "Sense_AC_B" H 6049 3948 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 3800 50  0001 C CNN
 F 3 "~" H 6200 3800 50  0001 C CNN
@@ -470,10 +442,6 @@ F 3 "~" H 7700 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 3200 3150 3100
-Wire Wire Line
-	3150 3100 3250 3100
-Wire Wire Line
 	4950 2600 4950 2550
 Connection ~ 4950 2600
 Connection ~ 4950 2550
@@ -486,13 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3600 2850 4500
 Wire Wire Line
-	5750 3150 5500 3150
-Wire Wire Line
-	5500 3150 5500 3000
-Wire Wire Line
-	5650 2900 5650 2950
-Wire Wire Line
-	5650 2950 5750 2950
+	5500 3150 5500 3050
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5EE788F3
@@ -543,10 +505,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 2550 2550 2550
 $Comp
-L Connector:Conn_01x03_Female J5
+L Connector:Conn_01x03_Female J8
 U 1 1 5EF1EAD1
 P 3700 3900
-F 0 "J5" H 3700 4050 50  0000 L CNN
+F 0 "J8" H 3700 4050 50  0000 L CNN
 F 1 "Sense_AC_A" H 3600 3700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3700 3900 50  0001 C CNN
 F 3 "~" H 3700 3900 50  0001 C CNN
@@ -554,10 +516,10 @@ F 3 "~" H 3700 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J2
+L Connector:Conn_01x02_Female J1
 U 1 1 5EF29797
 P 1950 2900
-F 0 "J2" H 1900 3000 50  0000 L CNN
+F 0 "J1" H 1900 3000 50  0000 L CNN
 F 1 "A_Top" H 1800 2650 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1950 2900 50  0001 C CNN
 F 3 "~" H 1950 2900 50  0001 C CNN
@@ -565,10 +527,10 @@ F 3 "~" H 1950 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J4
+L Connector:Conn_01x02_Female J2
 U 1 1 5EF298F9
 P 2000 3600
-F 0 "J4" V 1940 3748 50  0000 L CNN
+F 0 "J2" V 1940 3748 50  0000 L CNN
 F 1 "A_Bottom" V 1849 3748 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 3600 50  0001 C CNN
 F 3 "~" H 2000 3600 50  0001 C CNN
@@ -576,10 +538,10 @@ F 3 "~" H 2000 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J6
+L Connector:Conn_01x02_Female J3
 U 1 1 5EF2C265
 P 4400 2900
-F 0 "J6" H 4300 2950 50  0000 L CNN
+F 0 "J3" H 4300 2950 50  0000 L CNN
 F 1 "B_Top" H 4250 2700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4400 2900 50  0001 C CNN
 F 3 "~" H 4400 2900 50  0001 C CNN
@@ -587,10 +549,10 @@ F 3 "~" H 4400 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J7
+L Connector:Conn_01x02_Female J4
 U 1 1 5EF2C2E3
 P 4450 3650
-F 0 "J7" H 4400 3500 50  0000 L CNN
+F 0 "J4" H 4400 3500 50  0000 L CNN
 F 1 "B_Bottom" H 4000 3800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4450 3650 50  0001 C CNN
 F 3 "~" H 4450 3650 50  0001 C CNN
@@ -598,10 +560,10 @@ F 3 "~" H 4450 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J8
+L Connector:Conn_01x02_Female J5
 U 1 1 5EF2C39D
 P 6950 2900
-F 0 "J8" H 6900 2700 50  0000 L CNN
+F 0 "J5" H 6900 2700 50  0000 L CNN
 F 1 "C_Top" H 6750 2950 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6950 2900 50  0001 C CNN
 F 3 "~" H 6950 2900 50  0001 C CNN
@@ -609,10 +571,10 @@ F 3 "~" H 6950 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J9
+L Connector:Conn_01x02_Female J6
 U 1 1 5EF2C41F
 P 7000 3650
-F 0 "J9" H 6950 3450 50  0000 L CNN
+F 0 "J6" H 6950 3450 50  0000 L CNN
 F 1 "C_Bottom" H 6700 3700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7000 3650 50  0001 C CNN
 F 3 "~" H 7000 3650 50  0001 C CNN
@@ -655,7 +617,6 @@ Wire Wire Line
 	6400 3800 6550 3800
 Wire Wire Line
 	6400 3700 6600 3700
-Connection ~ 6150 3350
 Wire Wire Line
 	6150 3350 6500 3350
 Connection ~ 6500 3350
@@ -666,7 +627,6 @@ Wire Wire Line
 Connection ~ 6600 2750
 Wire Wire Line
 	6600 2750 6750 2750
-Connection ~ 3650 3450
 Wire Wire Line
 	3900 4000 4000 4000
 Wire Wire Line
@@ -708,4 +668,21 @@ Wire Wire Line
 	1350 4400 1350 3800
 Wire Wire Line
 	1350 3800 1700 3800
+Wire Wire Line
+	3150 2900 3250 2900
+Wire Wire Line
+	3150 2900 3150 3200
+Wire Wire Line
+	2550 3100 3250 3100
+Wire Wire Line
+	5650 3150 5750 3150
+Wire Wire Line
+	5650 2900 5650 3150
+Wire Wire Line
+	5750 2950 5750 3050
+Wire Wire Line
+	5750 3050 5500 3050
+Connection ~ 5500 3050
+Wire Wire Line
+	5500 3050 5500 3000
 $EndSCHEMATC
