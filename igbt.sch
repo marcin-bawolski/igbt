@@ -69,114 +69,17 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 8950 3350 
 	1    8950 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:BYV79-100 D1
-U 1 1 5EE20343
-P 4200 3350
-F 0 "D1" V 4100 3250 50  0000 L CNN
-F 1 "BYV79-100" H 4000 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 4200 3175 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 4200 3350 50  0001 C CNN
-	1    4200 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:BYV79-100 D2
-U 1 1 5EE20433
-P 4200 3900
-F 0 "D2" V 4100 3800 50  0000 L CNN
-F 1 "BYV79-100" H 4000 4000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 4200 3725 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 4200 3900 50  0001 C CNN
-	1    4200 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:BYV79-100 D4
-U 1 1 5EE20491
-P 6650 3950
-F 0 "D4" V 6550 3850 50  0000 L CNN
-F 1 "BYV79-100" H 6450 4050 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 6650 3775 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 6650 3950 50  0001 C CNN
-	1    6650 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:BYV79-100 D3
-U 1 1 5EE204E5
-P 6650 3300
-F 0 "D3" V 6550 3200 50  0000 L CNN
-F 1 "BYV79-100" H 6450 3400 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 6650 3125 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 6650 3300 50  0001 C CNN
-	1    6650 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:BYV79-100 D5
-U 1 1 5EE20543
-P 9550 3400
-F 0 "D5" V 9450 3300 50  0000 L CNN
-F 1 "BYV79-100" H 9350 3500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 9550 3225 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 9550 3400 50  0001 C CNN
-	1    9550 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:BYV79-100 D6
-U 1 1 5EE2059B
-P 9550 3900
-F 0 "D6" V 9450 3800 50  0000 L CNN
-F 1 "BYV79-100" H 9350 4000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp" H 9550 3725 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf" H 9550 3900 50  0001 C CNN
-	1    9550 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3900 3550 3900 3600
-Wire Wire Line
-	4200 3500 4200 3600
-Wire Wire Line
-	4200 3600 3900 3600
-Connection ~ 3900 3600
-Wire Wire Line
-	4200 4050 4200 4150
 Wire Wire Line
 	4200 4150 3900 4150
-Wire Wire Line
-	6650 3450 6650 3550
-Wire Wire Line
-	6650 3550 6300 3550
-Wire Wire Line
-	6650 3800 6650 3700
-Wire Wire Line
-	6650 3700 6300 3700
-Wire Wire Line
-	6300 3700 6300 3750
-Wire Wire Line
-	6650 4100 6650 4200
 Wire Wire Line
 	6650 4200 6300 4200
 Wire Wire Line
 	6300 4200 6300 4150
 Wire Wire Line
-	9050 3550 9550 3550
-Wire Wire Line
-	6650 3150 6300 3150
-Wire Wire Line
-	4200 3200 4200 3100
-Wire Wire Line
-	4200 3100 3900 3100
-Wire Wire Line
 	3900 3100 3900 3150
 Wire Wire Line
 	9050 3550 9050 3650
 Connection ~ 6300 3550
-Connection ~ 6300 3700
-Connection ~ 4200 4150
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5EE26766
@@ -237,14 +140,6 @@ Wire Wire Line
 Connection ~ 9050 3650
 Wire Wire Line
 	9050 3650 9050 3700
-Wire Wire Line
-	3900 3700 4200 3700
-Connection ~ 3900 3700
-Wire Wire Line
-	3900 3700 3900 3750
-Wire Wire Line
-	4200 3700 4200 3750
-Connection ~ 6650 4200
 Wire Wire Line
 	6650 5050 6600 5050
 $Comp
@@ -341,7 +236,6 @@ Connection ~ 6600 5050
 Wire Wire Line
 	6650 5050 7300 5050
 Connection ~ 6650 5050
-Connection ~ 4200 3100
 $Comp
 L Device:C C4
 U 1 1 5EEE851E
@@ -373,35 +267,16 @@ Wire Wire Line
 Wire Wire Line
 	6300 3550 6300 3650
 Wire Wire Line
-	6650 3550 6850 3550
-Connection ~ 6650 3550
-Connection ~ 9050 3550
-Wire Wire Line
-	9550 3100 9550 3250
-Wire Wire Line
 	9050 3150 9050 3100
 Connection ~ 9050 3100
 Wire Wire Line
 	9050 3100 9550 3100
-Connection ~ 9550 3100
-Wire Wire Line
-	4200 3100 6300 3100
 Wire Wire Line
 	8100 3300 8100 3450
 Wire Wire Line
 	7500 3300 7950 3300
 Wire Wire Line
 	8100 3900 8100 3750
-Wire Wire Line
-	9550 3700 9550 3750
-Wire Wire Line
-	9050 4100 9550 4100
-Wire Wire Line
-	9550 4100 9550 4050
-Connection ~ 9050 4100
-Wire Wire Line
-	9050 3700 9550 3700
-Connection ~ 9050 3700
 $Comp
 L Connector:Conn_01x03_Female J7
 U 1 1 5EFB8E57
@@ -426,7 +301,6 @@ F 3 "~" H 9250 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 3150 6300 3100
-Connection ~ 6300 3150
 Connection ~ 6300 3100
 Wire Wire Line
 	6300 3100 6850 3100
@@ -436,8 +310,6 @@ Wire Wire Line
 	6650 4200 6650 5050
 Wire Wire Line
 	4200 4150 4200 5050
-Wire Wire Line
-	6850 3700 6850 3600
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5EE788F3
@@ -619,11 +491,8 @@ Wire Wire Line
 	7100 3500 7100 3600
 Wire Wire Line
 	7100 3600 6850 3600
-Connection ~ 6850 3600
 Wire Wire Line
 	6850 3600 6850 3550
-Wire Wire Line
-	3900 3600 3900 3650
 Wire Wire Line
 	4600 3650 4500 3650
 Wire Wire Line
@@ -635,8 +504,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 3450 4600 3450
 Connection ~ 3900 3650
-Wire Wire Line
-	3900 3650 3900 3700
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F01BF94
@@ -784,8 +651,6 @@ Wire Wire Line
 	5850 3650 5950 3650
 Connection ~ 6300 3650
 Wire Wire Line
-	6300 3650 6300 3700
-Wire Wire Line
 	5950 3650 6300 3650
 Connection ~ 5950 3650
 Wire Wire Line
@@ -902,4 +767,14 @@ Wire Wire Line
 	3050 2500 2500 2500
 Wire Wire Line
 	3050 2600 2750 2600
+Wire Wire Line
+	6300 3650 6300 3750
+Wire Wire Line
+	6300 3550 6850 3550
+Wire Wire Line
+	3900 3650 3900 3750
+Wire Wire Line
+	3900 3550 3900 3650
+Wire Wire Line
+	3900 3100 6300 3100
 $EndSCHEMATC
