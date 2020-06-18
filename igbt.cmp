@@ -1,0 +1,427 @@
+Cmp-Mod V01 Created by PcbNew   date = 18.06.2020 15:00:18
+
+BeginCmp
+TimeStamp = 5EEB9D79
+Path = /5EF4F64A
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Diode_THT:D_A-405_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C63E
+Path = /5F1E1E81
+Reference = J1;
+ValeurCmp = PWM;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2EA62
+Path = /5EE8328D
+Reference = U2;
+ValeurCmp = ACS758xCB-050B-PFF;
+IdModule  = Sensor_Current:Allegro_CB_PFF;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6FE17
+Path = /5F11FE32
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6E5A6
+Path = /5EF7BEB9
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F00530A
+Path = /5EE20001
+Reference = Q1;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6CE4D
+Path = /5F0A514F
+Reference = J10;
+ValeurCmp = Motor;
+IdModule  = Connector_Wago:Wago_734-163_1x03_P3.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE67D00
+Path = /5F0A5375
+Reference = TP14;
+ValeurCmp = MC;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6CE88
+Path = /5F0A542B
+Reference = TP13;
+ValeurCmp = MB;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE67CD6
+Path = /5F0A54AD
+Reference = TP12;
+ValeurCmp = MA;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F0D176F
+Path = /5F01BF94
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F0D1767
+Path = /5F01C199
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F0D175F
+Path = /5F01C217
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE70940
+Path = /5F01C0A9
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F00294D
+Path = /5EE20092
+Reference = Q2;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F005338
+Path = /5EE200C8
+Reference = Q3;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F002A3A
+Path = /5EE2010A
+Reference = Q4;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F005366
+Path = /5EE2017C
+Reference = Q5;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F0029E9
+Path = /5EE20146
+Reference = Q6;
+ValeurCmp = IRG4PF50W;
+IdModule  = Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F0009DD
+Path = /5EE26766
+Reference = TP1;
+ValeurCmp = A;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2EBB4
+Path = /5EE267DE
+Reference = TP4;
+ValeurCmp = B;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F000857
+Path = /5EEE851E
+Reference = C4;
+ValeurCmp = 1n;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2E9A1
+Path = /5EEE85E4
+Reference = C5;
+ValeurCmp = 1n;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2E9D7
+Path = /5EFB8E57
+Reference = J7;
+ValeurCmp = Sense_AC_B;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFFEC25
+Path = /5EF4F631
+Reference = C1;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2D674
+Path = /5EF4F63A
+Reference = C2;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6E5D9
+Path = /5EF7BED1
+Reference = C6;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6D940
+Path = /5EF115E8
+Reference = C7;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6D910
+Path = /5EF1BD7B
+Reference = C8;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB74FD
+Path = /5EEA9798
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB710B
+Path = /5EFD49AA
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F002711
+Path = /5EF2722A
+Reference = R16;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF2D76C
+Path = /5EFE13A6
+Reference = R17;
+ValeurCmp = R;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6ACCE
+Path = /5EE831BB
+Reference = U1;
+ValeurCmp = ACS758xCB-050B-PFF;
+IdModule  = Sensor_Current:Allegro_CB_PFF;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6B1BC
+Path = /5EF1EAD1
+Reference = J8;
+ValeurCmp = Sense_AC_A;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6E4CB
+Path = /5EF7BEC8
+Reference = C3;
+ValeurCmp = 4u7;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6E503
+Path = /5EF7BEDE
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C62F
+Path = /5EF4AA32
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C66E
+Path = /5EE497F2
+Reference = J9;
+ValeurCmp = DC_Sense;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C690
+Path = /5EE72BAE
+Reference = R8;
+ValeurCmp = 100k;
+IdModule  = Resistor_SMD:R_2816_7142Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C6A1
+Path = /5F9B79CC
+Reference = R32;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_2816_7142Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6C6EA
+Path = /5EF4F629
+Reference = U5;
+ValeurCmp = IR2110;
+IdModule  = Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6E54E
+Path = /5EF7BEC0
+Reference = U6;
+ValeurCmp = IR2110;
+IdModule  = Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF6D8B8
+Path = /5EEB41AA
+Reference = U7;
+ValeurCmp = IR2110;
+IdModule  = Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F6C
+Path = /5EE26876
+Reference = TP2;
+ValeurCmp = DC_CapB_P;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F74
+Path = /5EE268F0
+Reference = TP3;
+ValeurCmp = DC_CapA_N;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F7C
+Path = /5EE2682C
+Reference = TP5;
+ValeurCmp = C;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F84
+Path = /5EE81CD1
+Reference = TP6;
+ValeurCmp = DC_BUS;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F8C
+Path = /5EE81DDF
+Reference = TP7;
+ValeurCmp = DC_GND;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F94
+Path = /5EFF3DA2
+Reference = TP8;
+ValeurCmp = DC_CapA_P;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6F9C
+Path = /5EE788F3
+Reference = TP9;
+ValeurCmp = DC_CapC_P;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6FA4
+Path = /5EE78C49
+Reference = TP10;
+ValeurCmp = DC_CapB_N;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EEB6FAC
+Path = /5EE78CAB
+Reference = TP11;
+ValeurCmp = DC_CapC_N;
+IdModule  = TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm;
+EndCmp
+
+EndListe
