@@ -543,7 +543,7 @@ $EndComp
 Wire Wire Line
 	12400 6050 12400 6200
 Wire Wire Line
-	12400 5400 12400 6050
+	12400 5400 12400 5450
 $Comp
 L Transistor_IGBT:IRG4PF50W Q6
 U 1 1 5EE20146
@@ -556,14 +556,14 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf" H 11750 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_FET:IR2110 U7
+L marcin_schematic:IR2110S U7
 U 1 1 5EEB41AA
-P 9950 5850
-F 0 "U7" H 9800 6400 50  0000 C CNN
-F 1 "IR2110" H 10050 6400 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9950 5300 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 9750 5300 50  0001 C CNN
-	1    9950 5850
+P 9750 5850
+F 0 "U7" H 9600 6400 50  0000 C CNN
+F 1 "IR2110" H 9850 6400 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9750 5300 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 9550 5300 50  0001 C CNN
+	1    9750 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -635,14 +635,14 @@ Wire Wire Line
 Wire Wire Line
 	5050 6100 5050 5450
 $Comp
-L Driver_FET:IR2110 U5
+L marcin_schematic:IR2110S U5
 U 1 1 5EF4F629
-P 3850 5800
-F 0 "U5" H 3700 6350 50  0000 C CNN
-F 1 "IR2110" H 3950 6350 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3850 5250 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 3650 5250 50  0001 C CNN
-	1    3850 5800
+P 3650 5800
+F 0 "U5" H 3500 6350 50  0000 C CNN
+F 1 "IR2110" H 3750 6350 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3650 5250 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 3450 5250 50  0001 C CNN
+	1    3650 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -756,14 +756,14 @@ $EndComp
 Wire Wire Line
 	8200 6150 8200 5500
 $Comp
-L Driver_FET:IR2110 U6
+L marcin_schematic:IR2110S U6
 U 1 1 5EF7BEC0
-P 6950 5850
-F 0 "U6" H 6850 6400 50  0000 C CNN
-F 1 "IR2110" H 7050 6400 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6950 5300 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 6750 5300 50  0001 C CNN
-	1    6950 5850
+P 6750 5850
+F 0 "U6" H 6650 6400 50  0000 C CNN
+F 1 "IR2110" H 6850 6400 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6750 5300 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e" H 6550 5300 50  0001 C CNN
+	1    6750 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1020,4 +1020,7 @@ Wire Wire Line
 Connection ~ 10550 6050
 Wire Wire Line
 	10550 6050 10900 6050
+Connection ~ 12400 5450
+Wire Wire Line
+	12400 5450 12400 6050
 $EndSCHEMATC
